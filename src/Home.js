@@ -9,12 +9,56 @@ function Home() {
        
        {/* Products  with id title price rating and image */}
 
-       <Product id="1234"
+
+        <div className="home__row">
+        <Product id="1"
        title="test"
        price={100}
        rating={5}
        image="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg"/>
        
+
+       <Product id="2"
+       title="test"
+       price={100}
+       rating={5}
+       image="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg"/>
+       
+        </div>
+
+        <div className="home__row">
+        <Product id="3"
+       title="test"
+       price={100}
+       rating={5}
+       image="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg"/>
+       
+
+       <Product id="4"
+       title="test"
+       price={100}
+       rating={5}
+       image="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg"/>
+       
+
+       <Product id="5"
+       title="test"
+       price={100}
+       rating={5}
+       image="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg"/>
+            
+        </div>
+
+        <div className="home__row">
+        <Product id="6"
+       title="test"
+       price={100}
+       rating={5}
+       image="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg"/>
+            
+        </div>
+
+      
         </div>
     )
 }
